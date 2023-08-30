@@ -1,0 +1,173 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#carouselExampleIndicators {
+    max-height: 400px; /* Set the maximum height of the carousel */
+    margin: 0 auto;   /* Center the carousel horizontally */
+}
+.carousel-item img{
+    max-height: 400px; 
+    margin: 0 auto;
+
+}
+.home{
+    display: flex;
+    margin: 15px auto;
+   
+}
+@media  (max-width:400){
+    .home{
+        display: flex;
+        flex-direction: column;
+        margin: 15px auto;
+       
+    }
+}
+/* #home {
+justify-content: center;
+align-items: center;
+text-align: center;
+margin :auto 0px;
+}
+.home :last-child{
+   max-width: 600px;
+} */
+
+.homeimg{
+    max-width: 450px;
+}
+#about{
+    background-color: #96989a;
+    margin: 20px;
+}
+.aboutcol{
+    background-color: #818284;
+    color: white;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.aboutimg{
+    width: 60px;
+    margin: 10px;
+}
+
+#course{
+margin: 20px;
+background-color: aliceblue;
+}
+
+.crcard{
+    display: flex;
+    flex-wrap: wrap;
+}
+.courgrid{
+    margin: 20px;
+}
+
+
+/*  */
+
+
+#contact {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px 0;
+}
+.contact{
+    background-color: rgb(243, 217, 183);
+    margin: 20px;
+}
+.contact .row div{
+justify-content: space-around;
+}
+.contact  .col{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+/*  */
+
+/* Apply rounded corners to input fields */
+.form input {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+/* Style the button */
+.form button {
+    background: linear-gradient(135deg, #ff6b6b, #b25b9e);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+/* Apply gradient background color to contact form */
+.call-form {
+   
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+    margin: 0 auto;
+}
+.contacth1{
+    background: linear-gradient(135deg, #ff6b6b, #b25b9e);
+}
+
+/* Center text inside h1 */
+.contacth1 h1 {
+    margin: 0;
+}
+
+/* Set margin for input container */
+.contact-input {
+    margin-top: 20px;
+}
+
+
+.placed-student{
+    display: grid;
+    /* grid-template-columns: repeat(4,1fr); */
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #f7e7e7;
+}
+
+/* asq */
+
+.ask{
+    margin-top: 20px; 
+    margin-bottom: 20px; 
+    background-color: aliceblue;
+ 
+}
+.footer{
+    margin-top: 20px; 
+    margin-bottom: 20px; 
+    background-color: rgb(1, 12, 22);
+    color: white;
+    text-align: center;
+}
+.footer ul li{
+    list-style-type: none;
+}
+
+.footer ul li a {
+    text-align: center;
+   
+    color: white;
+    text-decoration: none;
+}
